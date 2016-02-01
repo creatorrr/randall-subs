@@ -24,7 +24,7 @@
   "homepage": "https://github.com/creatorrr/randall-subs#readme",
   "dependencies": {
     "lodash": "^4.1.0",
-    "nlp_compromise": "^2.0.2"
+    "nlp_compromise": "git://github.com/creatorrr/nlp_compromise.git"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
