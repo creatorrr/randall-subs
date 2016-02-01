@@ -4,6 +4,8 @@
   "description": "xkcd.com/1288 style substitutions with some nlp magic",
   "main": "index.js",
   "scripts": {
+    "build": "browserify src/index.js -o index.js -t [ babelify --presets [ es2015 ] ]",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/creatorrr/randall-subs/issues"
   },
-  "homepage": "https://github.com/creatorrr/randall-subs#readme"
+  "homepage": "https://github.com/creatorrr/randall-subs#readme",
+  "dependencies": {
+    "lodash": "^4.1.0",
+    "nlp_compromise": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0"
+  }
 }
