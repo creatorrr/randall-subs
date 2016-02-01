@@ -1,0 +1,23 @@
+{
+  "name": "randall-subs",
+  "version": "1.0.0",
+  "description": "xkcd.com/1288 style substitutions with some nlp magic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatorrr/randall-subs.git"
+  },
+  "keywords": [
+    "nlp",
+    "xkcd"
+  ],
+  "author": "Diwank Singh <diwank.singh@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/creatorrr/randall-subs/issues"
+  },
+  "homepage": "https://github.com/creatorrr/randall-subs#readme"
+}
