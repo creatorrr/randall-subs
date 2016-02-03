@@ -1,82 +1,102 @@
 [
     {
         "original": "debate",
-        "substitution": "dance-off"
+        "substitution": "dance-off",
+        "type": "noun"
     },
     {
         "original": "self driving",
-        "substitution": "uncontrollably swerving"
+        "substitution": "uncontrollably swerving",
+        "type": "adjective"
     },
     {
         "original": "poll",
-        "substitution": "psychic reading"
+        "substitution": "psychic reading",
+        "type": "noun"
     },
     {
         "original": "candidate",
-        "substitution": "airbender"
+        "substitution": "airbender",
+        "type": "noun"
     },
     {
         "original": "drone",
-        "substitution": "dog"
+        "substitution": "dog",
+        "type": "noun"
     },
     {
         "original": "vows to",
-        "substitution": "probably won't"
+        "substitution": "probably won't",
+        "type": "sentence"
     },
     {
         "original": "at large",
-        "substitution": "very large"
+        "substitution": "very large",
+        "type": "adjective"
     },
     {
         "original": "successfully",
-        "substitution": "sudden"
+        "substitution": "suddenly",
+        "type": "adverb"
     },
     {
         "original": "expands",
-        "substitution": "physically expands"
+        "substitution": "physically expands",
+        "type": "verb"
     },
     {
         "original": "first-degree",
-        "substitution": "friggin' awful"
+        "substitution": "friggin' awful",
+        "type": "adjective"
     },
     {
         "original": "second-degree",
-        "substitution": "friggin' awful"
+        "substitution": "friggin' awful",
+        "type": "adjective"
     },
     {
         "original": "third-degree",
-        "substitution": "friggin' awful"
+        "substitution": "friggin' awful",
+        "type": "adjective"
     },
     {
         "original": "an unknown number",
-        "substitution": "like hundreds"
+        "substitution": "like hundreds",
+        "type": "noun"
     },
     {
         "original": "front runner",
-        "substitution": "blade runner"
+        "substitution": "blade runner",
+        "type": "noun"
     },
     {
         "original": "global",
-        "substitution": "spherical"
+        "substitution": "spherical",
+        "type": "adjective"
     },
     {
         "original": "years",
-        "substitution": "minutes"
+        "substitution": "minutes",
+        "type": "noun"
     },
     {
         "original": "minutes",
-        "substitution": "years"
+        "substitution": "years",
+        "type": "noun"
     },
     {
         "original": "no indication",
-        "substitution": "lots of signs"
+        "substitution": "lots of signs",
+        "type": "noun"
     },
     {
         "original": "urged restraint by",
-        "substitution": "drunkenly egged on"
+        "substitution": "drunkenly egged on",
+        "type": "verb"
     },
     {
         "original": "horsepower",
-        "substitution": "tons of horsemeat"
+        "substitution": "tons of horsemeat",
+        "type": "noun"
     }
 ]

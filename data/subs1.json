@@ -1,58 +1,72 @@
 [
     {
         "original": "witnesses",
-        "substitution": "these dudes I know"
+        "substitution": "these dudes I know",
+        "type": "noun"
     },
     {
         "original": "allegedly",
-        "substitution": "kinda probably"
+        "substitution": "kinda probably",
+        "type": "adverb"
     },
     {
         "original": "new study",
-        "substitution": "tumblr post"
+        "substitution": "tumblr post",
+        "type": "noun"
     },
     {
         "original": "rebuild",
-        "substitution": "avenge"
+        "substitution": "avenge",
+        "type": "verb"
     },
     {
         "original": "space",
-        "substitution": "spaaace"
+        "substitution": "spaaace",
+        "type": "noun"
     },
     {
         "original": "google glass",
-        "substitution": "virtual boy"
+        "substitution": "virtual boy",
+        "type": "noun"
     },
     {
         "original": "smartphone",
-        "substitution": "pokedex"
+        "substitution": "pokedex",
+        "type": "noun"
     },
     {
         "original": "electric",
-        "substitution": "atomic"
+        "substitution": "atomic",
+        "type": "adjective"
     },
     {
         "original": "senator",
-        "substitution": "elf-lord"
+        "substitution": "elf-lord",
+        "type": "noun"
     },
     {
         "original": "car",
-        "substitution": "cat"
+        "substitution": "cat",
+        "type": "noun"
     },
     {
         "original": "election",
-        "substitution": "eating contest"
+        "substitution": "eating contest",
+        "type": "noun"
     },
     {
         "original": "congressional leaders",
-        "substitution": "river spirits"
+        "substitution": "river spirits",
+        "type": "noun"
     },
     {
         "original": "homeland security",
-        "substitution": "homestar runner"
+        "substitution": "homestar runner",
+        "type": "noun"
     },
     {
         "original": "could not be reached for comment",
-        "substitution": "is guilty and everyone knows it"
+        "substitution": "is guilty and everyone knows it",
+        "type": "sentence"
     }
 ]
