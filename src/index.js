@@ -1,5 +1,7 @@
 import NLP from "nlp_compromise";
-import UtilsMixin from "./utils";
+
+import data from "../data";
+import { UtilsMixin } from "./utils";
 
 NLP.mixin(UtilsMixin);
 

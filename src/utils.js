@@ -1,4 +1,8 @@
+import NLP from "nlp_compromise";
+
 // Utils
+
+// Predicates
 
 // is_plural exists
 // function is_plural() {
@@ -37,6 +41,19 @@ function is_superlative() {
   return (new this.constructor(this.text)).to_superlative() == this.text;
 }
 
+// Converters
+function adjToNoun(adj) {
+  return (new NLP.adjective(adj)).to_noun();
+}
+
+function adjToAdverb(adj) {
+  return (new NLP.adjective(adj)).to_adverb();
+}
+
+function advToAdjective(adv) {
+  return (new NLP.adverb(adv)).to_adjective();
+}
+
 // Mixin
 const
   Text = {
@@ -72,4 +89,17 @@ const
     Noun
   };
 
-export default UtilsMixin;
+export {
+  UtilsMixin,
+  is_singular,
+  is_superlative,
+  is_comparative,
+  is_american,
+  is_british,
+  is_future,
+  is_present,
+  is_past,
+  advToAdjective,
+  adjToAdverb,
+  adjToNoun
+};

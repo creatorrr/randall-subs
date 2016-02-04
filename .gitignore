@@ -1,6 +1,7 @@
 # Built files
 index.js
 !src/index.js
+!data/index.js
 
 # Logs
 logs
