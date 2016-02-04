@@ -1,6 +1,6 @@
 import subs1 from "./subs1";
 import subs2 from "./subs2";
-import { advToAdjective, adjToNoun, adjToAdverb } from "../src/utils";
+import { wrap } from "../src/utils";
 
 // Data
 let data = subs1.concat(subs2);
@@ -11,14 +11,14 @@ data.forEach( ({ type, original, substitution }) => {
     case "adjective":
       data.push({
         type: "adverb",
-        original: adjToAdverb( original ),
-        substitution: adjToAdverb( substitution )
+        original: wrap( original, type ).to_adverb(),
+        substitution: wrap( substitution, type ).to_adverb()
       });
 
       data.push({
         type: "noun",
-        original: adjToNoun( original ),
-        substitution: adjToNoun( substitution )
+        original: wrap( original, type ).to_noun(),
+        substitution: wrap( substitution, type ).to_noun()
       });
 
       break;
@@ -27,8 +27,8 @@ data.forEach( ({ type, original, substitution }) => {
 
       data.push({
         type: "adjective",
-        original: advToAdjective( original ),
-        substitution: advToAdjective( substitution )
+        original: wrap( original, type ).to_adjective(),
+        substitution: wrap( substitution, type ).to_adjective()
       });
 
       break;

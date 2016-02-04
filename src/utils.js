@@ -46,16 +46,8 @@ function is_superlative() {
 }
 
 // Converters
-function adjToNoun(adj) {
-  return (new NLP.adjective(adj)).to_noun();
-}
-
-function adjToAdverb(adj) {
-  return (new NLP.adjective(adj)).to_adverb();
-}
-
-function advToAdjective(adv) {
-  return (new NLP.adverb(adv)).to_adjective();
+function wrap( text, type ) {
+  return new NLP[ type ]( text );
 }
 
 // Mixin
@@ -103,7 +95,5 @@ export {
   is_future,
   is_present,
   is_past,
-  advToAdjective,
-  adjToAdverb,
-  adjToNoun
+  wrap
 };
