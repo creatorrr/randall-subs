@@ -2,6 +2,10 @@ import NLP from "nlp_compromise";
 
 // Utils
 
+function copyTerm(term) {
+  return new term.constructor(term.text);
+}
+
 // Predicates
 
 // is_plural exists
@@ -10,35 +14,35 @@ import NLP from "nlp_compromise";
 // }
 
 function is_singular() {
-  return (new this.constructor(this.text)).singularize() == this.text;
+  return copyTerm(this).singularize() == this.text;
 }
 
 function is_past() {
-  return (new this.constructor(this.text)).to_past() == this.text;
+  return copyTerm(this).to_past() == this.text;
 }
 
 function is_present() {
-  return (new this.constructor(this.text)).to_present() == this.text;
+  return copyTerm(this).to_present() == this.text;
 }
 
 function is_future() {
-  return (new this.constructor(this.text)).to_future() == this.text;
+  return copyTerm(this).to_future() == this.text;
 }
 
 function is_american() {
-  return (new this.constructor(this.text)).americanize() == this.text;
+  return copyTerm(this).americanize() == this.text;
 }
 
 function is_british() {
-  return (new this.constructor(this.text)).britishize() == this.text;
+  return copyTerm(this).britishize() == this.text;
 }
 
 function is_comparative() {
-  return (new this.constructor(this.text)).to_comparative() == this.text;
+  return copyTerm(this).to_comparative() == this.text;
 }
 
 function is_superlative() {
-  return (new this.constructor(this.text)).to_superlative() == this.text;
+  return copyTerm(this).to_superlative() == this.text;
 }
 
 // Converters
